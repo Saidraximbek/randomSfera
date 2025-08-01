@@ -39,10 +39,10 @@ body {
 }
 
 button {
-  width: 100%;
+  width: 120%;
   max-width: 25rem;
   height: 5.4rem;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 
   background-color: rgb(61, 1, 117);
   color: white;
@@ -91,6 +91,7 @@ input {
   border: rgb(61, 1, 117) solid 1px;
   border-radius: 0.8rem;
   padding: 0 0.6rem;
+  width: 120%;
 }
 
 .tayyor {
@@ -146,7 +147,6 @@ form {
   z-index: 1000;
 }
 
-/* Modal va overlay ochilganda */
 .modal.open,
 .overlay.open {
   opacity: 1;
